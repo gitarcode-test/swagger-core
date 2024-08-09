@@ -7,7 +7,6 @@ import io.swagger.v3.core.filter.AbstractSpecFilter;
  **/
 public class RemoveUnreferencedDefinitionsFilter extends AbstractSpecFilter {
     @Override
-    public boolean isRemovingUnreferencedDefinitions() {
-        return true;
-    }
+    public boolean isRemovingUnreferencedDefinitions() { return true; }
+        
 }
