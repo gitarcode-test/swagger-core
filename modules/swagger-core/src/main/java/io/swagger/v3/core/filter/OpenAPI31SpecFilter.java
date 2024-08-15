@@ -25,9 +25,7 @@ public class OpenAPI31SpecFilter extends AbstractSpecFilter {
         schema2JsonSchema.process(schema);
         return Optional.of(schema);
     }
-
     @Override
-    public boolean isOpenAPI31Filter() {
-        return true;
-    }
+    public boolean isOpenAPI31Filter() { return true; }
+        
 }
